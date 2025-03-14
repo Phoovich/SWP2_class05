@@ -1,3 +1,5 @@
+"use client";
+
 import {
   TextField,
   Select,
@@ -36,16 +38,6 @@ export default function Reservations() {
           variant="standard"
           fullWidth
         />
-
-        {/* Modified Select with gray label */}
-        <FormControl fullWidth variant="standard">
-          <InputLabel sx={{ color: "gray" }}>Venue</InputLabel>
-          <Select id="venue" variant="standard" fullWidth>
-            <MenuItem value="Bloom">The Bloom Pavilion</MenuItem>
-            <MenuItem value="Spark">Spark Space</MenuItem>
-            <MenuItem value="GrandTable">The Grand Table</MenuItem>
-          </Select>
-        </FormControl>
 
         <Box sx={{ width: "100%" }}>
           <div className="text-md text-left text-gray-600">Event Date</div>

@@ -17,9 +17,9 @@ export default function LocationDateReserve() {
         id="location"
         className="h-[2em] w-[200px]"
       >
-        <MenuItem value="BKK">Bangkok</MenuItem>
-        <MenuItem value="CNX">Chiang Mai</MenuItem>
-        <MenuItem value="HKT">Phuket</MenuItem>
+        <MenuItem value="Bloom">The Bloom Pavilion</MenuItem>
+        <MenuItem value="Spark">Spark Space</MenuItem>
+        <MenuItem value="GrandTable">The Grand Table</MenuItem>
       </Select>
     </div>
   );
