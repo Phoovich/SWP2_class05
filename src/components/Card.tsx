@@ -10,7 +10,7 @@ export default function ProductCard({
 }) {
   return (
     <InteractiveCard contentName={venueName}>
-      <div className="w-full h-[70%] relative rounded-t-lg">
+      <div className="w-full h-[70%] relative rounded-lg shadow-lg bg-white">
         <Image
           src={imgSrc}
           alt="Product Picture"
